@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Open+Sans:wght@400;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/slick/slick/slick.css">
+    <link rel="stylesheet" href="assets/slick/slick/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Play And Bet</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-md">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#">
+                                <img src="assets/images/logo.png" alt="Play & Bet">
+                            </a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="about-us.html">About Us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="#">Contact Us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="#">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link btn-theme bg-yellow-gradient" aria-current="page"
+                                            href="./login.html">Login</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link btn-theme bg-grey-gradient" aria-current="page"
+                                            href="./SignUp.html">Sign
+                                            up</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main role="main-content">
+        <section class="banner-sec">
+            <div class="search-area text-center">
+                <h1 class="text-white font-90">Play & Bet</h1>
+                <div class="search-box">
+                    <p class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></p>
+                    <input type="text" class="form-control" placeholder="Search for Game and Event">
+                    <div class="btn-area">
+                        <button class="btn-theme bg-yellow-gradient">Search</button>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    </br> et dolore magna aliqua. Ut enim ad minim laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </section>
+        <section class="live-matches-sec">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="text-white font-36 mb-4">Live Matches</h2>
+                        <ul class="nav nav-tabs mb-4 border-0" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="all-tab" data-bs-toggle="tab"
+                                    data-bs-target="#all-tab-pane" type="button" role="tab" aria-controls="all-tab-pane"
+                                    aria-selected="true">All</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="football-tab" data-bs-toggle="tab"
+                                    data-bs-target="#football-tab-pane" type="button" role="tab"
+                                    aria-controls="football-tab-pane" aria-selected="false">
+                                    <span><i class="fa-solid fa-futbol" style="color: #c2c6d1;"></i></span> Football
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="basketball-tab" data-bs-toggle="tab"
+                                    data-bs-target="#basketball-tab-pane" type="button" role="tab"
+                                    aria-controls="basketball-tab-pane" aria-selected="false">
+                                    <span><i class="fa-solid fa-basketball"
+                                            style="color: #c2c6d1;"></i></span>Basketball</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="cricket-tab" data-bs-toggle="tab"
+                                    data-bs-target="#cricket-tab-pane" type="button" role="tab"
+                                    aria-controls="cricket-tab-pane" aria-selected="false">
+                                    <span><img src="assets/images/cricket-ball.png" alt="" /></span>Cricket</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="baseball-tab" data-bs-toggle="tab"
+                                    data-bs-target="#baseball-tab-pane" type="button" role="tab"
+                                    aria-controls="baseball-tab-pane" aria-selected="false">
+                                    <span><i class="fa-solid fa-baseball"
+                                            style="color: #c2c6d1;"></i>Baseball</button></span>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="tennis-tab" data-bs-toggle="tab"
+                                    data-bs-target="#tennis-tab-pane" type="button" role="tab"
+                                    aria-controls="tennis-tab-pane" aria-selected="false">
+                                    <span><img src="assets/images/tennis-ball.png" alt="" /></span>Tennis</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="american-tab" data-bs-toggle="tab"
+                                    data-bs-target="#american-football-tab-pane" type="button" role="tab"
+                                    aria-controls="american-football-tab-pane" aria-selected="false">
+                                    <span><i class="fa-solid fa-football" style="color: #c2c6d1;"></i></span>American
+                                    Football</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="rugby-tab" data-bs-toggle="tab"
+                                    data-bs-target="#rugby-tab-pane" type="button" role="tab"
+                                    aria-controls="rugby-tab-pane" aria-selected="false">
+                                    <span><img src="assets/images/rugby.png" /></span>Rugby</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="all-tab-pane" role="tabpanel"
+                                aria-labelledby="all-tab" tabindex="0">
+                                <div class="row">
+                                    <div class="col-12 col-md-6 col-xxl-3">
+                                        <div class="score-box">
+                                            <div class="header d-flex align-items-center justify-content-between p-3">
+                                                <h3 class="font-14">UEFA Champions League</h3>
+                                                <p class="text-orange font-14">Live 39’</p>
+                                            </div>
+                                            <div
+                                                class="score-box-body align-items-center justify-content-between d-flex p-3 ">
+                                                <div class="team1">
+                                                    <img src="assets/images/barca-img.png" alt="Team">
+                                                </div>
+                                                <div class="text-box">
+                                                    <p>UCL Semi Final</p>
+                                                    <h4 class="text-orange">Camp Nou’ Stadium</h4>
+                                                </div>
+                                                <div class="team1">
+                                                    <img src="assets/images/chelsea-img.png" alt="Team" />
+                                                </div>
+                                            </div>
+                                            <div class="footer p-3">
+                                                <ul>
+                                                    <li class="d-flex align-items-center justify-content-between">
+                                                        <p>Barcelona</p>
+                                                        <p>3</p>
+                                                    </li>
+                                                    <li class="d-flex align-items-center justify-content-between">
+                                                        <p>Barcelona</p>
+                                                        <p>3</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xxl-3">
+                                        <div class="score-box">
+                                            <div class="header d-flex align-items-center justify-content-between p-3">
+                                                <h3 class="font-14">UEFA Champions League</h3>
+                                                <p class="text-orange font-14">Live 39’</p>
+                                            </div>
+                                            <div
+                                                class="score-box-body align-items-center justify-content-between d-flex p-3 ">
+                                                <div class="team1">
+                                                    <img src="assets/images/barca-img.png" alt="Team">
+                                                </div>
+                                                <div class="text-box">
+                                                    <p>UCL Semi Final</p>
+                                                    <h4 class="text-orange">Camp Nou’ Stadium</h4>
+                                                </div>
+                                                <div class="team1">
+                                                    <img src="assets/images/chelsea-img.png" alt="Team" />
+                                                </div>
+                                            </div>
+                                            <div class="footer p-3">
+                                                <ul>
+                                                    <li class="d-flex align-items-center justify-content-between">
+                                                        <p>Barcelona</p>
+                                                        <p>3</p>
+                                                    </li>
+                                                    <li class="d-flex align-items-center justify-content-between">
+                                                        <p>Barcelona</p>
+                                                        <p>3</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-xxl-3">
+                                        <div class="score-box">
+                                            <div class="header d-flex align-items-center justify-content-between p-3">
+                                                <h3 class="font-14">UEFA Champions League</h3>
+                                                <p class="text-orange font-14">Live 39’</p>
+                                            </div>
+                                            <div
+                                                class="score-box-body align-items-center justify-content-between d-flex p-3 ">
+                                                <div class="team1">
+                                                    <img src="assets/images/barca-img.png" alt="Team">
+                                                </div>
+                                                <div class="text-box">
+                                                    <p>UCL Semi Final</p>
+                                                    <h4 class="text-orange">Camp Nou’ Stadium</h4>
+                                                </div>
+                                                <div class="team1">
+                                                    <img src="assets/images/chelsea-img.png" alt="Team" />
+                                                </div>
+                                            </div>
+                                            <div class="footer p-3">
+                                                <ul>
+                                                    <li class="d-flex align-items-center justify-content-between">
+                                                        <p>Barcelona</p>
+                                                        <p>3</p>
+                                                    </li>
+                                                    <li class="d-flex align-items-center justify-content-between">
+                                                        <p>Barcelona</p>
+                                                        <p>3</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="football-tab-pane" role="tabpanel"
+                                aria-labelledby="football-tab" tabindex="0">2</div>
+                            <div class="tab-pane fade" id="basketball-tab-pane" role="tabpanel"
+                                aria-labelledby="basketball-tab" tabindex="0">3</div>
+                            <div class="tab-pane fade" id="cricket-tab-pane" role="tabpanel"
+                                aria-labelledby="cricket-tab" tabindex="0">4</div>
+                            <div class="tab-pane fade" id="baseball-tab-pane" role="tabpanel"
+                                aria-labelledby="baseball-tab" tabindex="0">5</div>
+                            <div class="tab-pane fade" id="tennis-tab-pane" role="tabpanel" aria-labelledby="tennis-tab"
+                                tabindex="0">6</div>
+                            <div class="tab-pane fade" id="american-football-tab-pane" role="tabpanel"
+                                aria-labelledby="american-football-tab" tabindex="0">7</div>
+                            <div class="tab-pane fade" id="rugby-tab-pane" role="tabpanel"
+                                aria-labelledby="rugby-tab-pane" tabindex="0">8</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="online-game">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <h2 class="text-white font-36 mb-3">Online Games</h2>
+                        <div class="online-games-slider">
+                            <div class="slider-item">
+                                <div class="img-box">
+                                    <img src="assets/images/team-player.png" alt="">
+                                </div>
+                                <h2 class="text-white font-24">Fifa 24</h2>
+                            </div>
+                            <div class="slider-item">
+                                <div class="img-box">
+                                    <img src="assets/images/team-player.png" alt="">
+                                </div>
+                                <h2 class="text-white font-24">Fifa 24</h2>
+                            </div>
+                            <div class="slider-item">
+                                <div class="img-box">
+                                    <img src="assets/images/team-player.png" alt="">
+                                </div>
+                                <h2 class="text-white font-24">Fifa 24</h2>
+                            </div>
+                            <div class="slider-item">
+                                <div class="img-box">
+                                    <img src="assets/images/team-player.png" alt="">
+                                </div>
+                                <h2 class="text-white font-24">Fifa 24</h2>
+                            </div>
+                            <div class="slider-item">
+                                <div class="img-box">
+                                    <img src="assets/images/team-player.png" alt="">
+                                </div>
+                                <h2 class="text-white font-24">Fifa 24</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg">
+                    <div class="footer-col footer-col-1">
+                        <div class="footer-logo mb-3">
+                            <img src="assets/images/footer-logo.png" alt="">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 col-lg offset-lg-1 offset-xl-2">
+                    <div class="footer-col footer-col-2">
+                        <h2 class="text-white font-18 mb-3">Links</h2>
+                        <ul>
+                            <li>
+                                <a href="#">About</a>
+                            </li>
+                            <li>
+                                <a href="#">Live Streaming</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact Us</a>
+                            </li>
+                            <li>
+                                <a href="#">FAQs</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 col-lg">
+                    <div class="footer-col footer-col-2">
+                        <h2 class="text-white font-18 mb-3">Follow</h2>
+                        <ul>
+                            <li>
+                                <a href="#">Facebook</a>
+                            </li>
+                            <li>
+                                <a href="#">Twitter</a>
+                            </li>
+                            <li>
+                                <a href="#">Instagram</a>
+                            </li>
+                            <li>
+                                <a href="#">Youtube</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 col-lg">
+                    <div class="footer-col footer-col-2">
+                        <h2 class="text-white font-18 mb-3">Locations</h2>
+                        <p>6225 N. State Highway 161
+                            Suite 300
+                            Irving,
+                            Texas 75038</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <section class="copyright-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="d-flex align-items-center justify-content-between flex-wrap">
+                        <p>All Rights Reserved @ P2P Play&Bet 2022</p>
+                        <ul class="d-flex align-items-center">
+                            <li>
+                                <a href="#">Terms & Conditions</a>
+                            </li>
+                            <li>
+                                <a href="#">Privacy Policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/slick/slick/slick.min.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.online-games-slider').slick({
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                arrows: false,
+                dots: true,
+                responsive: [
+                    {
+                        breakpoint: 1200,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 1,
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+</body>
+
+</html>
